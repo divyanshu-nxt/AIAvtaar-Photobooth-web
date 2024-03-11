@@ -1,0 +1,88 @@
+.Avtaar{
+   width: 100%;
+    height: 100%;
+    display: flex;
+    background-image: url(/src/images/AI/avtaarp.png);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: 100% 100%; /* Make the background image cover the entire container and adjust its size */
+  background-position: center; /* Center the background image */
+    color: white;
+}
+
+.clicked { /* Change this to the color you want */
+  /* Other styles like boxShadow can also be included here */
+}
+.notclicked {/* Change this to the color you want */
+ 
+  /* Other styles like boxShadow can also be included here */
+}
+.images{
+  padding-top: 250px;
+}
+
+  #uploadingTxt{
+    margin-top: 20px;
+    height: 90px;
+  }
+  .fileNameLabel {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-top: -30px;
+  }
+  
+  /* Media query for small screens (up to 480px, e.g., mobile devices) */
+  @media (max-width: 480px) {
+    .Browse {
+    /* Adjust width and height for smaller screens */
+    width: 20%; /* Adjust the width to your preference */
+    height: 70vh; /* Adjust the height to your preference */
+    /* Reduce gap between items */
+  }
+    .fileNameLabel {
+      font-size: 16px; /* Adjust font size for smaller screens */
+      letter-spacing: 1px; /* Modify letter spacing */
+      margin-top: -20px; /* Adjust margin-top */
+    }
+  }
+  
+  /* Media query for medium-sized screens (481px to 768px) */
+  @media (min-width: 481px) and (max-width: 768px) {
+    .Browse {
+        /* Adjust width and height for medium-sized screens */
+        width: 70%; /* Adjust the width to your preference */
+        height: 60vh; /* Adjust the height to your preference */
+         /* Modify gap between items */
+      }
+    .fileNameLabel {
+      font-size: 17px; /* Adjust font size for medium-sized screens */
+      letter-spacing: 1.5px; /* Modify letter spacing */
+      margin-top: -25px; /* Adjust margin-top */
+    }
+  }
+  .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .images img {
+    width: 195px; /* Set a fixed width */
+    height: 185px; /* Set a fixed height */
+    margin: 5px; /* Adjust the margin as needed */
+    /* Add any other styles you need */
+  }
+  
+ 
